@@ -13,9 +13,9 @@ Pasitos es una aplicación para Android que ayuda a las familias a seguir el sue
 
 Para funcionar, la app te pide y guarda:
 
-- el nombre del bebé (puede ser un apodo),
-- su fecha de nacimiento y, si quieres, las semanas de gestación al nacer,
-- los registros que haces: hora de despertar, siestas, hora de acostarse y cómo se durmió.
+- tu nombre, para saludarte,
+- el nombre de cada hijo que registres (puede ser un apodo), su fecha de nacimiento y, si quieres, las semanas de gestación al nacer,
+- los registros que haces de cada hijo: hora de despertar, siestas, hora de acostarse y cuánto tardó en dormirse.
 
 ## Dónde se guarda
 
@@ -29,7 +29,7 @@ Toda esta información se guarda **solo en el almacenamiento privado de tu telé
 
 ## Notificaciones y alarmas
 
-La app programa avisos locales en tu teléfono (por ejemplo, antes de una siesta). Se generan en el propio dispositivo, no pasan por ningún servidor, y sus textos no incluyen el nombre del bebé para que no se vea en la pantalla bloqueada. Pedimos el permiso de notificaciones y, de forma opcional, el de alarmas exactas para que los avisos lleguen a tiempo.
+La app programa avisos locales en tu teléfono (por ejemplo, antes de una siesta). Se generan en el propio dispositivo, no pasan por ningún servidor, y en la pantalla bloqueada se ve una versión sin nombres. Si registras más de un hijo, el texto completo del aviso (al desbloquear) lleva el nombre del hijo para que sepas de cuál es. Pedimos el permiso de notificaciones y, de forma opcional, el de alarmas exactas para que los avisos lleguen a tiempo.
 
 ## Cómo borrar tus datos
 
