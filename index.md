@@ -2,59 +2,46 @@
 lang: es
 ---
 
+[Español](https://takahirokz.github.io/pasitos-privacidad/) · [English](https://takahirokz.github.io/pasitos-privacidad/en/) · [Français](https://takahirokz.github.io/pasitos-privacidad/fr/) · [Deutsch](https://takahirokz.github.io/pasitos-privacidad/de/)
+
 # Política de privacidad de Pasitos
 
+**Última actualización:** 12 de octubre de 2026
 
-Última actualización: 11 de octubre de 2026
+## 1. Introducción y responsable
 
-Pasitos es una aplicación para Android que ayuda a las familias a seguir el sueño de un bebé. Esta política explica qué información usa la app y qué hace con ella. La versión corta: **sin iniciar sesión, los datos de tus hijos se quedan en tu teléfono; si inicias sesión con Google (opcional), se guardan también en tu cuenta para que los veas en otros dispositivos.**
+Pasitos es una aplicación para seguir el sueño y la rutina de un bebé. Está diseñada para ser utilizada **exclusivamente por padres, madres o tutores legales**, es decir, por personas adultas. No está dirigida a menores de edad.
 
-## Qué información usa la app
+Esta política explica qué información usa la app, dónde se guarda y con quién se comparte. El responsable del tratamiento es el desarrollador de Pasitos. Para cualquier consulta puedes escribir a contacto@capitalfinaura.com.
 
-Para funcionar, la app te pide y guarda:
+## 2. Almacenamiento dual: local o en la nube
 
-- tu nombre, para saludarte,
-- el nombre de cada hijo que registres (puede ser un apodo), su fecha de nacimiento y, si quieres, las semanas de gestación al nacer,
-- los registros que haces de cada hijo: hora de despertar, siestas, hora de acostarse y cuánto tardó en dormirse.
+**Modo local (sin registro).** Si no inicias sesión, todos los datos se guardan estrictamente en el almacenamiento interno de tu dispositivo. El desarrollador no recopila, no accede ni respalda esta información.
 
-## Dónde se guarda
+**Modo sincronizado (con cuenta).** Si decides, de forma opcional, iniciar sesión con Google Sign-In, tus datos se sincronizan y se almacenan en la nube para que puedas verlos en otros dispositivos. Sin iniciar sesión no se sincroniza nada.
 
-Esta información se guarda en el **almacenamiento privado de tu teléfono**. Si no inicias sesión, no sale de él. La app:
+## 3. Datos que se recopilan
 
-- no te obliga a tener una cuenta: puedes usarla sin iniciar sesión,
-- no envía los datos de tus hijos a ningún servidor ni a terceros si no inicias sesión,
-- no usa anuncios, ni análisis de uso, ni herramientas de seguimiento,
-- no usa tu ubicación, contactos, cámara, micrófono ni archivos,
-- no hace copias de seguridad en la nube ni transfiere sus datos a otro teléfono.
+**Del adulto** (obtenidos a través de Google OAuth, solo si inicias sesión): tu nombre y tu correo electrónico. Además, la app te pide un nombre para saludarte.
 
-## Inicio de sesión con Google (opcional)
+**Del menor** (introducidos por el adulto): nombre o alias del bebé, fecha de nacimiento, semanas de gestación al nacer (opcional) y registros de rutina: hora de despertar, inicio y fin de las siestas y hora de acostarse.
 
-Si decides iniciar sesión, usamos Firebase Authentication, un servicio de Google, para verificar tu cuenta. Google nos entrega un identificador de la cuenta, tu nombre y tu correo electrónico, que se guardan en nuestro proyecto de Firebase para identificarte. Google procesa el inicio de sesión según su propia política de privacidad.
+**Permisos del dispositivo:** permiso de notificaciones y, de forma opcional, de alarmas exactas, para mostrar los recordatorios de siestas que tú configuras. Las notificaciones se generan en tu dispositivo.
 
-Con la sesión iniciada, la app sincroniza con tu cuenta, en Cloud Firestore (un servicio de Google Cloud), tu nombre y, de cada hijo, su nombre, fecha de nacimiento, semanas de gestación y sus registros de sueño. Solo tú puedes verlos: están protegidos por reglas de acceso ligadas a tu cuenta. Los datos viajan cifrados. Sin sesión iniciada no se sincroniza nada. La app usa Internet solo para esto.
+## 4. Proveedores de servicios de terceros
 
-Puedes cerrar sesión cuando quieras, y eliminar tu cuenta desde la app (en "Mi cuenta") o escribiéndonos a contacto@capitalfinaura.com.
+**Autenticación y base de datos: Firebase** (servicio de Google LLC). Firebase Authentication verifica tu cuenta de Google y Cloud Firestore guarda tus datos en la nube con cifrado en tránsito y en reposo. Solo tu cuenta puede leerlos, mediante reglas de acceso.
 
-## Notificaciones y alarmas
+**Publicidad (modelo freemium): Google AdMob.** La versión gratuita muestra anuncios y puede tratar identificadores de publicidad del dispositivo (AD-ID) y otros identificadores técnicos. Como la app maneja datos relacionados con menores, AdMob está configurado en su modo de **tratamiento dirigido a niños y familias**: los anuncios no son personalizados y se bloquea el rastreo conductual y la publicidad basada en intereses, en cumplimiento de COPPA. La versión Premium no muestra anuncios.
 
-La app programa avisos locales en tu teléfono (por ejemplo, antes de una siesta). Se generan en el propio dispositivo, no pasan por ningún servidor, y en la pantalla bloqueada se ve una versión sin nombres. Si registras más de un hijo, el texto completo del aviso (al desbloquear) lleva el nombre del hijo para que sepas de cuál es. Pedimos el permiso de notificaciones y, de forma opcional, el de alarmas exactas para que los avisos lleguen a tiempo.
+**Procesamiento de pagos (Premium): Google Play Billing y Apple App Store**, que gestionan la suscripción mensual. La app **no almacena ni accede** a datos bancarios ni a tarjetas de crédito; el pago lo procesa únicamente la tienda correspondiente.
 
-## Cómo borrar tus datos
+## 5. Privacidad de menores (COPPA y leyes locales)
 
-Puedes borrar todo en cualquier momento **desinstalando la aplicación**: Android elimina entonces todo lo que la app guardó. Si nunca iniciaste sesión, los datos de tus hijos no tienen copias fuera del teléfono y no queda nada que borrar en otro lugar. Si iniciaste sesión, puedes eliminar tu cuenta desde la app (en "Mi cuenta") o pedirlo a contacto@capitalfinaura.com; con eso borramos de la nube tu identificador, nombre y correo, y los datos de tus hijos. También puedes borrar a un hijo desde "Mi familia": se borran sus registros del teléfono y de tu cuenta. Los datos que están en tu teléfono se borran desinstalando la aplicación.
+La app **no recopila datos directamente de menores de edad**. Toda la información sobre el bebé es suministrada de manera voluntaria por sus padres, madres o tutores legales, que son los usuarios de la app. No usamos esa información para nada distinto a mostrártela, no la vendemos y no la usamos para crear perfiles publicitarios.
 
-## Menores de edad
+## 6. Eliminación de datos y derechos del usuario
 
-La app trata información sobre un bebé, pero está dirigida a sus padres o cuidadores adultos. No usamos esa información para nada distinto a mostrártela y no la compartimos con nadie; sin sesión iniciada no sale del teléfono.
+Puedes **eliminar tu cuenta de Firebase y todos los datos asociados** de dos formas: desde la app, en «Mi cuenta» > «Eliminar mi cuenta», o escribiendo a contacto@capitalfinaura.com. Al eliminarla borramos de la nube tu identificador, nombre, correo y los datos de tus hijos. También puedes borrar a un hijo desde «Mi familia», corregir sus datos en cualquier momento y cerrar sesión cuando quieras.
 
-## Aviso importante
-
-Las ventanas de sueño y los horarios que muestra la app son orientativos y no sustituyen la consulta con el pediatra. La app no diagnostica ni trata ningún problema de salud.
-
-## Cambios en esta política
-
-Si la app cambia la forma de tratar la información (por ejemplo, si más adelante permite compartir un hijo con otra persona), actualizaremos esta política y te pediremos aceptarla de nuevo antes de que el cambio aplique. La fecha de arriba indica la última revisión.
-
-## Contacto
-
-Si tienes preguntas sobre esta política, escríbenos a contacto@capitalfinaura.com.
+Los datos guardados en tu dispositivo se eliminan al desinstalar la app. Si usas solo el modo local, no existe ninguna copia en nuestros servidores. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo a contacto@capitalfinaura.com. Si esta política cambia, te avisaremos en la app y te pediremos aceptarla de nuevo.
