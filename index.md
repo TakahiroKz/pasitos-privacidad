@@ -7,7 +7,7 @@ lang: es
 
 Última actualización: 11 de octubre de 2026
 
-Pasitos es una aplicación para Android que ayuda a las familias a seguir el sueño de un bebé. Esta política explica qué información usa la app y qué hace con ella. La versión corta: **los datos de tus hijos se quedan en tu teléfono, y iniciar sesión con Google es opcional.**
+Pasitos es una aplicación para Android que ayuda a las familias a seguir el sueño de un bebé. Esta política explica qué información usa la app y qué hace con ella. La versión corta: **sin iniciar sesión, los datos de tus hijos se quedan en tu teléfono; si inicias sesión con Google (opcional), se guardan también en tu cuenta para que los veas en otros dispositivos.**
 
 ## Qué información usa la app
 
@@ -19,19 +19,19 @@ Para funcionar, la app te pide y guarda:
 
 ## Dónde se guarda
 
-Toda esta información se guarda **solo en el almacenamiento privado de tu teléfono**. La app:
+Esta información se guarda en el **almacenamiento privado de tu teléfono**. Si no inicias sesión, no sale de él. La app:
 
 - no te obliga a tener una cuenta: puedes usarla sin iniciar sesión,
-- no envía los datos de tus hijos ni tus registros a ningún servidor ni a terceros,
+- no envía los datos de tus hijos a ningún servidor ni a terceros si no inicias sesión,
 - no usa anuncios, ni análisis de uso, ni herramientas de seguimiento,
 - no usa tu ubicación, contactos, cámara, micrófono ni archivos,
 - no hace copias de seguridad en la nube ni transfiere sus datos a otro teléfono.
 
 ## Inicio de sesión con Google (opcional)
 
-Si decides iniciar sesión, usamos Firebase Authentication, un servicio de Google, para verificar tu cuenta. Google nos entrega un identificador de la cuenta, tu nombre y tu correo electrónico, que se guardan en nuestro proyecto de Firebase para identificarte. Google procesa el inicio de sesión según su propia política de privacidad. La app usa Internet solo para esto.
+Si decides iniciar sesión, usamos Firebase Authentication, un servicio de Google, para verificar tu cuenta. Google nos entrega un identificador de la cuenta, tu nombre y tu correo electrónico, que se guardan en nuestro proyecto de Firebase para identificarte. Google procesa el inicio de sesión según su propia política de privacidad.
 
-En esta versión, iniciar sesión no envía a ningún servidor los datos de tus hijos ni tus registros. Si más adelante activamos la sincronización entre dispositivos, te lo diremos y te pediremos aceptar esta política de nuevo antes de usarla.
+Con la sesión iniciada, la app sincroniza con tu cuenta, en Cloud Firestore (un servicio de Google Cloud), tu nombre y, de cada hijo, su nombre, fecha de nacimiento, semanas de gestación y sus registros de sueño. Solo tú puedes verlos: están protegidos por reglas de acceso ligadas a tu cuenta. Los datos viajan cifrados. Sin sesión iniciada no se sincroniza nada. La app usa Internet solo para esto.
 
 Puedes cerrar sesión cuando quieras, y eliminar tu cuenta desde la app (en "Mi cuenta") o escribiéndonos a contacto@capitalfinaura.com.
 
@@ -41,11 +41,11 @@ La app programa avisos locales en tu teléfono (por ejemplo, antes de una siesta
 
 ## Cómo borrar tus datos
 
-Puedes borrar todo en cualquier momento **desinstalando la aplicación**: Android elimina entonces todo lo que la app guardó. Como los datos de tus hijos no tienen copias fuera del teléfono, no queda nada que borrar en otro lugar. Si iniciaste sesión, además puedes eliminar tu cuenta desde la app o pedirlo a contacto@capitalfinaura.com; con eso borramos el identificador, el nombre y el correo guardados.
+Puedes borrar todo en cualquier momento **desinstalando la aplicación**: Android elimina entonces todo lo que la app guardó. Si nunca iniciaste sesión, los datos de tus hijos no tienen copias fuera del teléfono y no queda nada que borrar en otro lugar. Si iniciaste sesión, puedes eliminar tu cuenta desde la app (en "Mi cuenta") o pedirlo a contacto@capitalfinaura.com; con eso borramos de la nube tu identificador, nombre y correo, y los datos de tus hijos. Los datos que están en tu teléfono se borran desinstalando la aplicación.
 
 ## Menores de edad
 
-La app trata información sobre un bebé, pero está dirigida a sus padres o cuidadores adultos. No recopilamos información de menores ni la compartimos, porque no sale del teléfono.
+La app trata información sobre un bebé, pero está dirigida a sus padres o cuidadores adultos. No usamos esa información para nada distinto a mostrártela y no la compartimos con nadie; sin sesión iniciada no sale del teléfono.
 
 ## Aviso importante
 
@@ -53,7 +53,7 @@ Las ventanas de sueño y los horarios que muestra la app son orientativos y no s
 
 ## Cambios en esta política
 
-Si la app cambia la forma de tratar la información (por ejemplo, si más adelante ofrece iniciar sesión para sincronizar datos entre dispositivos), actualizaremos esta política y te pediremos aceptarla de nuevo antes de que el cambio aplique. La fecha de arriba indica la última revisión.
+Si la app cambia la forma de tratar la información (por ejemplo, si más adelante permite compartir un hijo con otra persona), actualizaremos esta política y te pediremos aceptarla de nuevo antes de que el cambio aplique. La fecha de arriba indica la última revisión.
 
 ## Contacto
 
