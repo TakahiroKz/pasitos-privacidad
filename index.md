@@ -41,7 +41,7 @@ La app programa avisos locales en tu teléfono (por ejemplo, antes de una siesta
 
 ## Cómo borrar tus datos
 
-Puedes borrar todo en cualquier momento **desinstalando la aplicación**: Android elimina entonces todo lo que la app guardó. Si nunca iniciaste sesión, los datos de tus hijos no tienen copias fuera del teléfono y no queda nada que borrar en otro lugar. Si iniciaste sesión, puedes eliminar tu cuenta desde la app (en "Mi cuenta") o pedirlo a contacto@capitalfinaura.com; con eso borramos de la nube tu identificador, nombre y correo, y los datos de tus hijos. Los datos que están en tu teléfono se borran desinstalando la aplicación.
+Puedes borrar todo en cualquier momento **desinstalando la aplicación**: Android elimina entonces todo lo que la app guardó. Si nunca iniciaste sesión, los datos de tus hijos no tienen copias fuera del teléfono y no queda nada que borrar en otro lugar. Si iniciaste sesión, puedes eliminar tu cuenta desde la app (en "Mi cuenta") o pedirlo a contacto@capitalfinaura.com; con eso borramos de la nube tu identificador, nombre y correo, y los datos de tus hijos. También puedes borrar a un hijo desde "Mi familia": se borran sus registros del teléfono y de tu cuenta. Los datos que están en tu teléfono se borran desinstalando la aplicación.
 
 ## Menores de edad
 
