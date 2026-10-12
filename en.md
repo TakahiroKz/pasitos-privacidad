@@ -19,7 +19,7 @@ This policy explains what information the app uses, where it is stored and who i
 
 **Local mode (no sign-up).** If you do not sign in, all data is stored strictly in your device’s internal storage. The developer does not collect, access or back up this information.
 
-**Synced mode (with an account).** If you optionally choose to sign in with Google Sign-In, your data is synced and stored in the cloud so you can see it on other devices. Nothing is synced without signing in.
+**Synced mode (with an account).** If you optionally choose to sign in with Google Sign-In, your data is synced and stored in the cloud so you can see it on other devices. Nothing is synced without signing in. With Premium you can also **share a baby** with other people (up to 4 in total, including you): those who accept your invitation, who must sign in with Google, can see and record that baby’s data and see the name they use in the app. Only the person who created the baby can invite and remove people.
 
 ## 3. Data collected
 
@@ -31,7 +31,7 @@ This policy explains what information the app uses, where it is stored and who i
 
 ## 4. Third-party service providers
 
-**Authentication and database: Firebase** (a Google LLC service). Firebase Authentication verifies your Google account and Cloud Firestore stores your data in the cloud, encrypted in transit and at rest. Only your account can read it, through access rules.
+**Authentication and database: Firebase** (a Google LLC service). Firebase Authentication verifies your Google account and Cloud Firestore stores your data in the cloud, encrypted in transit and at rest. Only your account and the people you choose to share a baby with can read it, through access rules.
 
 **Advertising (freemium model): Google AdMob.** The free version shows ads and may process device advertising identifiers (AD-ID) and other technical identifiers. Because the app handles data related to minors, AdMob is configured in its **child-directed and family treatment** mode: ads are non-personalized and behavioral tracking and interest-based advertising are blocked, in compliance with COPPA. The Premium version shows no ads.
 
@@ -43,6 +43,6 @@ The app **does not collect data directly from minors**. All information about th
 
 ## 6. Data deletion and user rights
 
-You can **delete your Firebase account and all associated data** in two ways: from the app, under “My account” > “Delete my account”, or by writing to contacto@capitalfinaura.com. When deleted, we remove from the cloud your identifier, name, email and your children’s data. You can also delete a child from “My family”, correct their data at any time, and sign out whenever you want.
+You can **delete your Firebase account and all associated data** in two ways: from the app, under “My account” > “Delete my account”, or by writing to contacto@capitalfinaura.com. When deleted, we remove from the cloud your identifier, name, email and your children’s data. You can also delete a child from “My family”, correct their data at any time, and sign out whenever you want. If you share a baby, whoever leaves or is removed stops seeing it; if the person who created the baby deletes the baby or their account, it is deleted for everyone.
 
 Data stored on your device is removed when you uninstall the app. If you only use local mode, there is no copy on our servers. You can exercise your rights of access, rectification and erasure by writing to contacto@capitalfinaura.com. If this policy changes, we will let you know in the app and ask you to accept it again.

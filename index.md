@@ -18,7 +18,7 @@ Esta política explica qué información usa la app, dónde se guarda y con qui�
 
 **Modo local (sin registro).** Si no inicias sesión, todos los datos se guardan estrictamente en el almacenamiento interno de tu dispositivo. El desarrollador no recopila, no accede ni respalda esta información.
 
-**Modo sincronizado (con cuenta).** Si decides, de forma opcional, iniciar sesión con Google Sign-In, tus datos se sincronizan y se almacenan en la nube para que puedas verlos en otros dispositivos. Sin iniciar sesión no se sincroniza nada.
+**Modo sincronizado (con cuenta).** Si decides, de forma opcional, iniciar sesión con Google Sign-In, tus datos se sincronizan y se almacenan en la nube para que puedas verlos en otros dispositivos. Sin iniciar sesión no se sincroniza nada. Con Premium puedes además **compartir un bebé** con otras personas (hasta 4 en total, contigo): quienes aceptan tu invitación, que tienen que iniciar sesión con Google, ven y pueden registrar los datos de ese bebé y ven el nombre que usan en la app. Solo la persona que creó al bebé puede invitar y quitar personas.
 
 ## 3. Datos que se recopilan
 
@@ -30,7 +30,7 @@ Esta política explica qué información usa la app, dónde se guarda y con qui�
 
 ## 4. Proveedores de servicios de terceros
 
-**Autenticación y base de datos: Firebase** (servicio de Google LLC). Firebase Authentication verifica tu cuenta de Google y Cloud Firestore guarda tus datos en la nube con cifrado en tránsito y en reposo. Solo tu cuenta puede leerlos, mediante reglas de acceso.
+**Autenticación y base de datos: Firebase** (servicio de Google LLC). Firebase Authentication verifica tu cuenta de Google y Cloud Firestore guarda tus datos en la nube con cifrado en tránsito y en reposo. Solo tu cuenta y las personas con las que decidas compartir a un bebé pueden leerlos, mediante reglas de acceso.
 
 **Publicidad (modelo freemium): Google AdMob.** La versión gratuita muestra anuncios y puede tratar identificadores de publicidad del dispositivo (AD-ID) y otros identificadores técnicos. Como la app maneja datos relacionados con menores, AdMob está configurado en su modo de **tratamiento dirigido a niños y familias**: los anuncios no son personalizados y se bloquea el rastreo conductual y la publicidad basada en intereses, en cumplimiento de COPPA. La versión Premium no muestra anuncios.
 
@@ -42,6 +42,6 @@ La app **no recopila datos directamente de menores de edad**. Toda la informaci�
 
 ## 6. Eliminación de datos y derechos del usuario
 
-Puedes **eliminar tu cuenta de Firebase y todos los datos asociados** de dos formas: desde la app, en «Mi cuenta» > «Eliminar mi cuenta», o escribiendo a contacto@capitalfinaura.com. Al eliminarla borramos de la nube tu identificador, nombre, correo y los datos de tus hijos. También puedes borrar a un hijo desde «Mi familia», corregir sus datos en cualquier momento y cerrar sesión cuando quieras.
+Puedes **eliminar tu cuenta de Firebase y todos los datos asociados** de dos formas: desde la app, en «Mi cuenta» > «Eliminar mi cuenta», o escribiendo a contacto@capitalfinaura.com. Al eliminarla borramos de la nube tu identificador, nombre, correo y los datos de tus hijos. También puedes borrar a un hijo desde «Mi familia», corregir sus datos en cualquier momento y cerrar sesión cuando quieras. Si compartes un bebé, la persona que se sale o es quitada deja de verlo; si quien lo creó borra al bebé o su cuenta, se borra para todas las personas.
 
 Los datos guardados en tu dispositivo se eliminan al desinstalar la app. Si usas solo el modo local, no existe ninguna copia en nuestros servidores. Puedes ejercer tus derechos de acceso, rectificación y supresión escribiendo a contacto@capitalfinaura.com. Si esta política cambia, te avisaremos en la app y te pediremos aceptarla de nuevo.
